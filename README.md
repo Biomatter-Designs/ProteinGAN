@@ -5,12 +5,6 @@ Generative network architecture that may be used to produce de-novo protein sequ
 De novo protein design for catalysis of any desired chemical reaction is a long standing goal in protein engineering, due to the broad spectrum of technological, scientific and medical applications. Currently, mapping protein sequence to protein function is, however, neither computationionally nor experimentally tangible. Here we developed ProteinGAN, a specialised variant of the generative adversarial network that is able to 'learn' natural protein sequence diversity and enables the generation of functional protein sequences. ProteinGAN learns the evolutionary relationships of protein sequences directly from the complex multidimensional amino acid sequence space and creates new, highly diverse sequence variants with natural-like physical properties. Using malate dehydrogenase as a template enzyme, we show that 24% of the ProteinGAN-generated and experimentally tested sequences are soluble and display wild-type level catalytic activity in the tested conditions in vitro, even in highly mutated (>100 mutations) sequences. ProteinGAN therefore demonstrates the potential of artificial intelligence to rapidly generate highly diverse novel functional proteins within the allowed biological constraints of the sequence space.
 
 
-### ProteinGAN
-
-ProteinGAN - generative adversarial network architecture that we developed and optimized to generate 
-de novo proteins. Once trained, it outputs a desirable amount of proteins belonging to a functional 
-class(es) it was trained for.
-
 ## Licenses
 
 All material is made available under Creative Commons BY-NC 4.0 license. You can use, redistribute, 
