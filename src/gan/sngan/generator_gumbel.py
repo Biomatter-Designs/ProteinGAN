@@ -35,6 +35,7 @@ class GumbelGenerator(Generator):
             h = self.add_sn_block(h, hidden_dim, block_name, dilation_rate, stride)
             if layer_id == self.number_of_layers - 2:
                 h = self.add_attention(h, hidden_dim, reuse)
+                hidden_dim = hidden_dim*2
 
         # Final conv
         h_act = self.act(self.final_bn(h), name="h_act")
