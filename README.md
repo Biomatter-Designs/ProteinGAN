@@ -28,7 +28,7 @@ environment.yml contains all the dependencies required in order to run ProteinGA
 
 
 
-## Datas for training
+## Data for training
 ProteinGAN expects a number of files in order to be able to train and evaluate the network.
 
 |  File name  |   Data |
