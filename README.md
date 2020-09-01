@@ -19,6 +19,14 @@ and indicating any changes that you've made.
 - One or more NVIDIA GPUs. Recomendation: NVIDIA at least P100 GPU with 16GB.
 - NVIDIA driver 418.87 or newer, CUDA toolkit 10.1 or newer, cuDNN 7.6.2 or newer.
 
+environment.yml contains all the dependencies required in order to run ProteinGAN. You can simply run:
+
+`conda env create --file environment.yml`
+
+to create new conda. 
+
+
+
 ## Datas for training
 ProteinGAN expects a number of files in order to be able to train and evaluate the network.
 
