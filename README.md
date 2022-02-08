@@ -77,3 +77,7 @@ Papers influenced final solution:
 - Which Training Methods for GANs do actually Converge? https://arxiv.org/pdf/1801.04406
 
 
+## Citation
+
+Repecka, D., Jauniskis, V., Karpus, L. et al. Expanding functional protein sequence spaces using generative adversarial networks. Nat Mach Intell 3, 324–333 (2021). https://doi.org/10.1038/s42256-021-00310-5
+
